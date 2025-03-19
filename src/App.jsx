@@ -54,9 +54,9 @@ function App() {
           className="container mx-auto h-[75vh] py-6 flex flex-row px-6"
         >
           <div className="flex flex-col justify-center w-1/2">
-            <p className="text-4xl font-bold text-light mb-2">Bem vindo á</p>
-            <h1 className="text-7xl font-bold text-light mb-2">Thom Gomes</h1>
-            <h2 className="text-5xl font-bold text-ots-base mb-6">
+            <p className="text-4xl font-semibold text-light mb-2">Bem vindo á</p>
+            <h1 className="text-7xl font-semibold text-light mb-2">Thom Gomes</h1>
+            <h2 className="text-5xl font-semibold text-ots-base mb-6">
               Desenvolvedor Frontend
             </h2>
             <div className="flex gap-6 ">
