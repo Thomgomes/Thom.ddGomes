@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme{
+    --color-dark: #090909;
+    --color-light: #F5F5F5;
+
+    
+    --color-gray-bg: #EAEAEA;
+    --color-gray-100: #C2CED2;
+    --color-gray-200: #5F7981;
+    --color-gray-400: #4C6167;
+    --color-gray-600: #39484D;
+    --color-gray-800: #263034;
+
+    --color-primary-base: #2D7AED;
+    --color-primary-300: #5C98F1;
+    --color-primary-600: #092E68;
+    --color-primary-800: #051A3A;
+
+    --color-primary-dark-base: #26A5D6;
+    --color-primary-dark-300: #55BAE1;
+    --color-primary-dark-600: #20ADE4;
+    --color-primary-dark-800: #00B8FF;
+
+    --color-secyndary-base: #4DC3C8;
+    --color-secyndary-700: #2C898D;
+    --color-secyndary-800: #1A5255;
+
+    --color-ots-base: #FABB86;
+    --color-ots-dark: #E38460;
+    --color-ots-yellow: #FFE585;
+    --color-ots-purple: #68447F;
+
+    --text-h1: 80px;
+    --text-h2: 60px;
+    --text-h3: 48px;
+    --text-h4: 36px;
+    --text-h5: 28px;
+    --text-h6: 22px;
+
+    --text-lg: 20px;
+    --text-base: 16px;
+    --text-sm: 12px;
+    --text-xs: 8px;
+}
+
+.gradient-base{
+    @apply bg-linear-45 to-primary-base from-secyndary-base
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    line-height: 130%;
+    background: var(--color-gray-bg);
+}
