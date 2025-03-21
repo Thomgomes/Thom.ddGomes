@@ -84,7 +84,9 @@ function App() {
         id="about"
         className="container mx-auto px-6 my-12 lg:my-6 flex flex-col items-center justify-center min-h-50 gap-6"
       >
-        <h4 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-dark">Um pouco sobre mim</h4>
+        <h4 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-dark">
+          Um pouco sobre mim
+        </h4>
         <hr className="border-4 w-25 border-secyndary-base" />
         <p className="text-lg text-dark md:w-1/2">
           Meu nome é Thomás Gomes, mas pode me chamar de Thom. Atuo como
@@ -93,6 +95,88 @@ function App() {
           cursando Análise e Desenvolvimento de Sistemas.
         </p>
       </section>
+
+      {/* Section de Conhecimentos */}
+      <div className="bg-[url(/bg_conhecimentos.svg)] bg-no-repeat bg-cover">
+        <div className="" />
+        <section
+          id="about"
+          className="container mx-auto px-6 pt-28 pb-6 flex items-stretch justify-center gap-6 "
+        >
+          <div className="flex flex-col items-center justify-center lg:w-1/2 min-h-full">
+            <h4 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-light">
+              Conhecimentos
+            </h4>
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-3 mt-6">
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+              <Button buttonClass={""} type={3} variant="skills" border={3}>
+                <img
+                  src="Vector.svg"
+                  className="h-20 w-20 group-hover:scale-110 transition-all"
+                />
+              </Button>
+            </div>
+          </div>
+          <div className="hidden lg:flex items-center justify-center w-1/2 min-h-full">
+            <p className="text-lg text-light">
+              Costumo trabalhar com React e Tailwind como minhas principais
+              ferramentas de desenvolvimento, pois valorizo a eficiência, a
+              modularidade e a produtividade que oferecem. A sintaxe
+              simplificada do Tailwind, combinada à componentização do React, me
+              permite criar projetos dinâmicos, elegantes e altamente
+              responsivos, garantindo interfaces modernas, performáticas e
+              adaptadas a diferentes dispositivos.
+            </p>
+          </div>
+        </section>
+      </div>
     </>
   );
 }

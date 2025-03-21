@@ -46,12 +46,6 @@ const Button = ({
 export default Button;
 
 
-//         <Button buttonClass={""} type={3} variant="skills" border={3}>
-//           <img
-//             src="Vector.svg"
-//             className="h-20 w-20 group-hover:scale-110 transition-all"
-//           />
-//         </Button>
 //         <Button
 //           buttonClass={""}
 //           text="react"
