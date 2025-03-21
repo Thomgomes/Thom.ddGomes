@@ -40,8 +40,9 @@
 
     --text-lg: 20px;
     --text-base: 16px;
-    --text-sm: 12px;
-    --text-xs: 8px;
+
+    --breakpoint-xs: 30rem;
+    --breakpoint-2xs: 25rem;
 }
 
 .gradient-base{
