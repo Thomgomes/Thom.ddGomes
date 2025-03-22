@@ -1,0 +1,73 @@
+<svg width="1440" height="848" viewBox="0 0 1440 848" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_110_15)">
+    <rect width="1440" height="848" fill="url(#paint0_linear_110_15)"/>
+    <!-- Paths com animação -->
+    <path class="path-1" d="M1588.52 297.726C1382.16 256.337 1091.15 667.144 703.324 573.969C315.502 480.793 88.7827 665.58 -96.1833 616.569" stroke="#092E6840" stroke-width="2"/>
+    <path class="path-2" d="M1515 56C1286.85 30.7805 1023.61 525.247 625.747 444.497C227.884 363.747 44.0332 528.212 -134.631 481.584" stroke="#092E6840" stroke-width="2"/>
+    <path class="path-3" d="M33.9998 930.098C210.565 955.59 434.473 590.023 781.407 644.356C1128.33 698.687 1338.94 395.106 1509.55 423.711" stroke="#092E6840" stroke-width="2"/>
+    <path class="path-4" d="M1509.63 119.118C1374.76 110.106 1231.34 325.314 979.722 300.941C728.104 276.569 742.69 175.585 492.624 151.16C242.57 126.736 106.394 215.26 -20.5287 203.242" stroke="#092E6840" stroke-width="2"/>
+    <path class="path-5" d="M1749.73 349.776C1529.64 270.898 1184.54 596.304 770.814 433.978C357.071 271.646 101.85 383.417 -95.9998 301.907" stroke="#092E6840" stroke-width="2"/>
+    <path class="path-6" d="M1541.86 501.277C1326.41 454.425 1033.92 823.261 627.501 721.348C221.071 619.432 -8.25553 765.269 -203 712.708" stroke="#092E6840" stroke-width="2"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_110_15" x1="720" y1="0" x2="720" y2="848" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20ADE4"/>
+      <stop offset="0.5" stop-color="#20ADE4"/>
+      <stop offset="1" stop-color="#4DC3C8"/>
+    </linearGradient>
+    <clipPath id="clip0_110_15">
+      <rect width="1440" height="848" fill="white"/>
+    </clipPath>
+  </defs>
+  <style>
+    /* Animação de desenho das linhas */
+    @keyframes drawPath {
+      0% {
+        stroke-dasharray: 0, 9999;
+      }
+      100% {
+        stroke-dasharray: 9999, 0;
+      }
+    }
+
+    /* Aplique a animação de desenho nas paths */
+    .path-1, .path-2, .path-3, .path-4, .path-5, .path-6 {
+      animation: drawPath 4s ease-in-out forwards;
+      stroke-dasharray: 0, 9999;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* Animação de oscilação para as linhas */
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Aplicando a flutuação com tempos de animação diferentes para as paths */
+    .path-1 {
+      animation: drawPath 4s ease-in-out forwards, float 6s ease-in-out infinite;
+    }
+
+    .path-2 {
+      animation: drawPath 4.5s ease-in-out forwards, float 5.5s ease-in-out infinite;
+    }
+
+    .path-3 {
+      animation: drawPath 5s ease-in-out forwards, float 5s ease-in-out infinite;
+    }
+
+    .path-4 {
+      animation: drawPath 5.5s ease-in-out forwards, float 7s ease-in-out infinite;
+    }
+
+    .path-5 {
+      animation: drawPath 6s ease-in-out forwards, float 4s ease-in-out infinite;
+    }
+
+    .path-6 {
+      animation: drawPath 4s ease-in-out forwards, float 6s ease-in-out infinite;
+    }
+  </style>
+</svg>
