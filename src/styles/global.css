@@ -49,6 +49,10 @@
     @apply bg-linear-45 to-primary-base from-secundary-base
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Fredoka', sans-serif;
     line-height: 130%;

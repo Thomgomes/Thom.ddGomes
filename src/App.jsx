@@ -1,5 +1,5 @@
 import Button from "./components/button";
-import Portfolio from './container/portfolio';
+import Portfolio from "./container/portfolio";
 
 function App() {
   return (
@@ -101,7 +101,7 @@ function App() {
       <div className="bg-[url(/bg_conhecimentos.svg)] bg-no-repeat bg-cover">
         <div className="" />
         <section
-          id="about"
+          id="skills"
           className="container mx-auto px-6 pt-28 pb-6 flex items-stretch justify-center gap-6 "
         >
           <div className="flex flex-col items-center justify-center lg:w-1/2 min-h-full">
@@ -180,7 +180,27 @@ function App() {
       </div>
 
       {/* Section de Projetos/Portfolio */}
-      <Portfolio/>
+      <Portfolio />
+
+      {/* section de Contato */}
+      <section id="contact" className="bg-gray-bg">
+        <div className="h-100">Contato</div>
+      </section>
+
+      {/* footer */}
+      <footer
+        id="footer"
+        className="w-dvw bg-secundary-base"
+      >
+        <div className="container mx-auto flex justify-between items-center py-6">
+          <p className="text-light">
+            Copyright © {new Date().getFullYear()} <a href="https://thom-dd-gomes.vercel.app" target="_blank" className="underline text-ots-base">thom-dd-gomes</a> .Todos os direitos reservados.
+          </p>
+          <a href="#index">
+            <img src="thomty.gif" alt="thomty pet" width={72} />
+          </a>
+        </div>
+      </footer>
     </>
   );
 }
