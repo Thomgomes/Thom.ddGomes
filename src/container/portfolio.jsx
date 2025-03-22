@@ -34,7 +34,7 @@ function Portfolio() {
   return (
     <div >
       <section ref={sectionRef} id="portfolio" className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
-        <div className="absolute h-screen w-screen bg-[url(background/bg_portfolio.svg)] bg-cover bg-no-repeat"/>
+        <div className="absolute h-screen w-screen bg-[url(/background/bg_portfolio.svg)] bg-cover bg-no-repeat"/>
         <h4 className="z-10 text-2xl sm:text-3xl lg:text-4xl font-semibold text-light my-8">
           Portfólio
         </h4>

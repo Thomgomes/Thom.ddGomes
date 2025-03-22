@@ -6,7 +6,7 @@ function App() {
     <>
       <div
         id="hero"
-        className="bg-[url(background/bg_hero.svg)] bg-no-repeat bg-cover lg:bg-contain "
+        className="bg-[url(/background/bg_hero.svg)] bg-no-repeat bg-cover lg:bg-contain "
       >
         {/* div para afastamento pois em outro elemento estava afastando o bg */}
         <div className="pb-4" />
@@ -15,7 +15,7 @@ function App() {
         <header>
           <div className="container mx-auto flex justify-between items-center h-22.5 px-3 lg:px-6 py-3">
             <div className="hidden xs:flex items-center w-1/3 space-x-2">
-              <img src="gif/thomty.gif" alt="thomty pet" width={72} />
+              <img src="/gif/thomty.gif" alt="thomty pet" width={72} />
             </div>
             <nav className="bg-gray-bg h-full w-full flex justify-center items-center lg:space-x-8 space-x-2 rounded-3xl text-primary-600 p-2">
               <a
@@ -200,7 +200,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon/icon_instagram.svg"
+              src="/icon/icon_instagram.svg"
               alt=""
               width={80}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -230,7 +230,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon/icon_linkedin.svg"
+              src="/icon/icon_linkedin.svg"
               alt=""
               width={80}
               className="mb-2 group-hover:scale-115 transition-all"
