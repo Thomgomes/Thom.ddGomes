@@ -183,8 +183,63 @@ function App() {
       <Portfolio />
 
       {/* section de Contato */}
-      <section id="contact" className="bg-gray-bg">
-        <div className="h-100">Contato</div>
+      <section
+        id="contact"
+        className="container mx-auto my-10 flex flex-col justify-center items-center"
+      >
+        <p className="text-2xl font-semibold">
+          Se interessou pelo meu trabalho?
+        </p>
+        <p className="text-4xl font-bold bg-gradient-to-b from-primary-base to-secundary-base bg-clip-text text-transparent">
+          Entre em Contato Comigo
+        </p>
+        <div className="flex mt-6 gap-10">
+          <a
+            href="https://www.instagram.com/thom_gomes/"
+            target="_blank"
+            className="group flex flex-col justify-center items-center"
+          >
+            <img
+              src="icon_instagram.svg"
+              alt=""
+              width={80}
+              className="mb-2 group-hover:scale-115 transition-all"
+            />
+            <h6 className="text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
+              @Thom_Gomes
+            </h6>
+          </a>
+          <a
+            href="https://github.com/Thomgomes"
+            target="_blank"
+            className="group flex flex-col justify-center items-center"
+          >
+            <img
+              src="icon_github.svg"
+              alt=""
+              width={90}
+              className="mb-2 group-hover:scale-115 transition-all"
+            />
+            <h6 className="text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
+              Thomgomes
+            </h6>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/thomás-gomes-796b8152/"
+            target="_blank"
+            className="group flex flex-col justify-center items-center"
+          >
+            <img
+              src="icon_linkedin.svg"
+              alt=""
+              width={80}
+              className="mb-2 group-hover:scale-115 transition-all"
+            />
+            <h6 className="text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
+              Thomás Gomes
+            </h6>
+          </a>
+        </div>
       </section>
 
       {/* footer */}
@@ -194,7 +249,15 @@ function App() {
       >
         <div className="container mx-auto flex justify-between items-center py-6">
           <p className="text-light">
-            Copyright © {new Date().getFullYear()} <a href="https://thom-dd-gomes.vercel.app" target="_blank" className="underline text-ots-base">thom-dd-gomes</a> .Todos os direitos reservados.
+            Copyright © {new Date().getFullYear()}{" "}
+            <a
+              href="https://thom-dd-gomes.vercel.app"
+              target="_blank"
+              className="underline text-ots-base"
+            >
+              thom-dd-gomes
+            </a>{" "}
+            .Todos os direitos reservados.
           </p>
           <a href="#index">
             <img src="thomty.gif" alt="thomty pet" width={72} />
