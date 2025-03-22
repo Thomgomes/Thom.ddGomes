@@ -190,7 +190,7 @@ function App() {
       {/* footer */}
       <footer
         id="footer"
-        className="w-dvw bg-secundary-base"
+        className="w-screen bg-gradient-to-t from-primary-base to-secundary-base"
       >
         <div className="container mx-auto flex justify-between items-center py-6">
           <p className="text-light">
