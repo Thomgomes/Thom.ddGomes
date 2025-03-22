@@ -5,8 +5,8 @@ function App() {
   return (
     <>
       <div
-        id="index"
-        className="bg-[url(/fundo3.svg)] bg-no-repeat bg-cover lg:bg-contain "
+        id="hero"
+        className="bg-[url(background/bg_hero.svg)] bg-no-repeat bg-cover lg:bg-contain "
       >
         {/* div para afastamento pois em outro elemento estava afastando o bg */}
         <div className="pb-4" />
@@ -15,7 +15,7 @@ function App() {
         <header>
           <div className="container mx-auto flex justify-between items-center h-22.5 px-3 lg:px-6 py-3">
             <div className="hidden xs:flex items-center w-1/3 space-x-2">
-              <img src="thomty.gif" alt="thomty pet" width={72} />
+              <img src="gif/thomty.gif" alt="thomty pet" width={72} />
             </div>
             <nav className="bg-gray-bg h-full w-full flex justify-center items-center lg:space-x-8 space-x-2 rounded-3xl text-primary-600 p-2">
               <a
@@ -72,8 +72,8 @@ function App() {
           </div>
           <div className="flex lg:justify-center lg:items-center lg:w-1/2 mt-16 sm:mt-0">
             <img
-              src="ThomGif.gif"
-              alt="thomty pet"
+              src="gif/thom_art.gif"
+              alt="thom animation art"
               className="rounded-full w-48 sm:w-64 lg:w-80"
             />
           </div>
@@ -98,7 +98,7 @@ function App() {
       </section>
 
       {/* Section de Conhecimentos */}
-      <div className="bg-[url(/bg_conhecimentos.svg)] bg-no-repeat bg-cover">
+      <div className="bg-[url(background/bg_conhecimentos.svg)] bg-no-repeat bg-cover">
         <div className="" />
         <section
           id="skills"
@@ -200,7 +200,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon_instagram.svg"
+              src="icon/' icon_instagram.svg"
               alt=""
               width={80}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -215,7 +215,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon_github.svg"
+              src="icon/' icon_github.svg"
               alt=""
               width={90}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -230,7 +230,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon_linkedin.svg"
+              src="icon/' icon_linkedin.svg"
               alt=""
               width={80}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -259,8 +259,8 @@ function App() {
             </a>{" "}
             .Todos os direitos reservados.
           </p>
-          <a href="#index">
-            <img src="thomty.gif" alt="thomty pet" width={72} />
+          <a href="#hero">
+            <img src="gif/thomty.gif" alt="thomty pet" width={72} />
           </a>
         </div>
       </footer>
