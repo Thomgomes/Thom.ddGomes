@@ -185,12 +185,12 @@ function App() {
       {/* section de Contato */}
       <section
         id="contact"
-        className="container mx-auto my-10 flex flex-col justify-center items-center"
+        className="container mx-auto my-10 flex flex-col justify-center items-center px-3 lg:px-6"
       >
-        <p className="text-2xl font-semibold">
+        <p className="text-xl md:text-2xl font-semibold">
           Se interessou pelo meu trabalho?
         </p>
-        <p className="text-4xl font-bold bg-gradient-to-b from-primary-base to-secundary-base bg-clip-text text-transparent">
+        <p className="whitespace-nowrap text-3xl md:text-4xl font-bold bg-gradient-to-b from-primary-base to-secundary-base bg-clip-text text-transparent">
           Entre em Contato Comigo
         </p>
         <div className="flex mt-6 gap-10">
@@ -201,11 +201,10 @@ function App() {
           >
             <img
               src="/icon/icon_instagram.svg"
-              alt=""
-              width={80}
-              className="mb-2 group-hover:scale-115 transition-all"
+              alt="icone instagram"
+              className="mb-2 group-hover:scale-115 transition-all w-16 md:w-20"
             />
-            <h6 className="text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
+            <h6 className="whitespace-nowrap text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
               @Thom_Gomes
             </h6>
           </a>
@@ -216,11 +215,10 @@ function App() {
           >
             <img
               src="/icon/icon_github.svg"
-              alt=""
-              width={90}
-              className="mb-2 group-hover:scale-115 transition-all"
+              alt="icone github"
+              className="mb-2 group-hover:scale-115 transition-all w-16 md:w-20"
             />
-            <h6 className="text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
+            <h6 className="whitespace-nowrap text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
               Thomgomes
             </h6>
           </a>
@@ -231,11 +229,10 @@ function App() {
           >
             <img
               src="/icon/icon_linkedin.svg"
-              alt=""
-              width={80}
-              className="mb-2 group-hover:scale-115 transition-all"
+              alt="icone linkedin"
+              className="mb-2 group-hover:scale-115 transition-all w-16 md:w-20"
             />
-            <h6 className="text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
+            <h6 className="whitespace-nowrap text-sm text-gray-200 bg-gradient-to-b bg-clip-text group-hover:text-transparent group-hover:from-primary-base group-hover:to-secundary-base transition-all">
               Thomás Gomes
             </h6>
           </a>
@@ -247,7 +244,7 @@ function App() {
         id="footer"
         className="w-screen bg-gradient-to-t from-primary-base to-secundary-base"
       >
-        <div className="container mx-auto flex justify-between items-center py-6">
+        <div className="text-sm md:text-base container mx-auto flex justify-between items-center py-6 px-3 lg:px-6">
           <p className="text-light">
             Copyright © {new Date().getFullYear()}{" "}
             <a
@@ -256,8 +253,11 @@ function App() {
               className="underline text-ots-base"
             >
               thom-dd-gomes
-            </a>{" "}
-            .Todos os direitos reservados.
+            </a>
+            .
+            <span className="block md:inline">
+              Todos os direitos reservados.
+            </span>
           </p>
           <a href="#hero">
             <img src="/gif/thomty.gif" alt="thomty pet" width={72} />
