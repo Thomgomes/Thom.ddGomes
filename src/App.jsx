@@ -98,7 +98,7 @@ function App() {
       </section>
 
       {/* Section de Conhecimentos */}
-      <div className="bg-[url(background/bg_conhecimentos.svg)] bg-no-repeat bg-cover">
+      <div className="bg-[url(/background/bg_conhecimentos.svg)] bg-no-repeat bg-cover">
         <div className="" />
         <section
           id="skills"
@@ -200,7 +200,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon/' icon_instagram.svg"
+              src="icon/icon_instagram.svg"
               alt=""
               width={80}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -215,7 +215,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon/' icon_github.svg"
+              src="/icon/icon_github.svg"
               alt=""
               width={90}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -230,7 +230,7 @@ function App() {
             className="group flex flex-col justify-center items-center"
           >
             <img
-              src="icon/' icon_linkedin.svg"
+              src="icon/icon_linkedin.svg"
               alt=""
               width={80}
               className="mb-2 group-hover:scale-115 transition-all"
@@ -260,7 +260,7 @@ function App() {
             .Todos os direitos reservados.
           </p>
           <a href="#hero">
-            <img src="gif/thomty.gif" alt="thomty pet" width={72} />
+            <img src="/gif/thomty.gif" alt="thomty pet" width={72} />
           </a>
         </div>
       </footer>
