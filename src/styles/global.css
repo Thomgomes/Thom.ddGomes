@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
     --color-dark: #090909;
     --color-light: #F5F5F5;
 
-    
+
     --color-gray-bg: #EAEAEA;
     --color-gray-100: #C2CED2;
     --color-gray-200: #5F7981;
@@ -22,9 +22,9 @@
     --color-primary-dark-600: #20ADE4;
     --color-primary-dark-800: #00B8FF;
 
-    --color-secyndary-base: #4DC3C8;
-    --color-secyndary-700: #2C898D;
-    --color-secyndary-800: #1A5255;
+    --color-secundary-base: #4DC3C8;
+    --color-secundary-700: #2C898D;
+    --color-secundary-800: #1A5255;
 
     --color-ots-base: #FABB86;
     --color-ots-dark: #E38460;
@@ -45,11 +45,11 @@
     --breakpoint-2xs: 25rem;
 }
 
-.gradient-base{
-    @apply bg-linear-45 to-primary-base from-secyndary-base
+.gradient-base {
+    @apply bg-linear-45 to-primary-base from-secundary-base
 }
 
-body{
+body {
     font-family: 'Fredoka', sans-serif;
     line-height: 130%;
     background: var(--color-gray-bg);
